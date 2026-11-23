@@ -30,7 +30,7 @@
 <br/>
 <br/>
 
-[**Website**](https://arafstudio.pages.dev) &nbsp;•&nbsp; [**Features**](#-features) &nbsp;•&nbsp; [**Screenshots**](#-screenshots) &nbsp;•&nbsp; [**Listen Together**](#-listen-together)
+[**Website**](https://arafstudio.pages.dev) &nbsp;•&nbsp; [**Features**](#-features) &nbsp;•&nbsp; [**Screenshots**](#-screenshots) &nbsp;•&nbsp; [**Listen Together**](#-listen-together) &nbsp;•&nbsp; [**Collaborators**](#-collaborators)
 
 </div>
 
@@ -228,6 +228,29 @@ Lyrically's party system is built for speed. There is **no polling**: a play, pa
 - <img src="https://api.iconify.design/lucide:shield-check.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Verified identity.** Everyone joins with their own account, so nobody can join as someone else.
 - <img src="https://api.iconify.design/lucide:repeat.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Reconnects on its own.** Drop into a tunnel and you keep your seat for 45 seconds.
 - <img src="https://api.iconify.design/lucide:crown.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Host &amp; DJ control.** The host can restrict control to themselves, hand out DJ access, resize the party (2–10) or remove people.
+
+---
+
+## <img src="https://api.iconify.design/lucide:users.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Collaborators
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" valign="top" width="180">
+<a href="https://github.com/envrc">
+<img src="https://github.com/envrc.png?size=120" width="90" height="90" alt="envrc" />
+<br/>
+<b>@envrc</b>
+</a>
+<br/>
+<sub>Music Backend Partner</sub>
+</td>
+<!-- Add more collaborators by copying a <td>...</td> block above and pasting it here -->
+</tr>
+</table>
+
+</div>
 
 ---
 
