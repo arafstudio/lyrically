@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Lyrically" width="120" height="120" />
+<img src="https://i.postimg.cc/28ZmVJwZ/20261121-011117.png" alt="Lyrically" width="120" height="120" />
 
 # Lyrically
 
