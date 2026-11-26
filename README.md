@@ -1,65 +1,93 @@
 <div align="center">
 
-<img src="https://i.postimg.cc/GpTm4nMW/01-cover.jpg" alt="Lyrically cover" width="100%" />
+<img src="assets/logo.png" alt="Lyrically" width="120" height="120" />
+
+# Lyrically
+
+<h3>Music you can see. Lyrics that move with the beat.</h3>
+
+<br/>
+
+<img src="https://img.shields.io/github/v/release/arafstudio/lyrically?style=for-the-badge&label=RELEASE&color=0A84FF&labelColor=111827" alt="Release" />
+<img src="https://img.shields.io/github/downloads/arafstudio/lyrically/total?style=for-the-badge&label=DOWNLOADS&color=3DDC84&labelColor=111827" alt="Downloads" />
+<img src="https://img.shields.io/github/stars/arafstudio/lyrically?style=for-the-badge&label=STARS&color=FFCA28&labelColor=111827" alt="Stars" />
+<img src="https://img.shields.io/badge/MIN%20SDK-24-8E5CF7?style=for-the-badge&labelColor=111827" alt="Min SDK 24" />
 
 <br/>
 <br/>
 
-# <img src="https://api.iconify.design/lucide:music.svg?color=%238E5CF7" width="34" height="34" align="top" alt="" /> Lyrically
-
-### Music you can *see*. Lyrics that move with the beat.
-
-**A native Android music player with beat-synced lyrics, a floating Dynamic&nbsp;Island, and real-time Listen&nbsp;Together parties.**
+[Download](#download) · [Features](#features) · [Screenshots](#screenshots) · [Listen Together](#listen-together) · [Collaborators](#collaborators) · [Disclaimer](#disclaimer--legal-notice)
 
 <br/>
 
-<img src="https://img.shields.io/badge/PLATFORM-ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-<img src="https://img.shields.io/badge/MIN%20SDK-24-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Min SDK 24" />
-<img src="https://img.shields.io/badge/VERSION-1.0.0-8E5CF7?style=for-the-badge" alt="Version" />
-<img src="https://img.shields.io/badge/BUILT%20WITH-KOTLIN-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+<a href="https://github.com/arafstudio/lyrically/releases/tag/V1.0.2.Universal"><img src="https://img.shields.io/badge/Available%20on-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=111827" alt="Available on Android" /></a>
+<a href="https://github.com/arafstudio/lyrically/releases/tag/V1.0.2.Universal"><img src="https://img.shields.io/badge/Now%20on-Android%20TV-0A84FF?style=for-the-badge&logo=androidtv&logoColor=white&labelColor=111827" alt="Android TV" /></a>
+<a href="https://arafstudio.pages.dev"><img src="https://img.shields.io/badge/Made%20by-Araf%20Studio-E11D48?style=for-the-badge&labelColor=111827" alt="Araf Studio" /></a>
 
-<img src="https://img.shields.io/badge/PLAYER-MEDIA3%20EXOPLAYER-FF6D00?style=for-the-badge&logo=google&logoColor=white" alt="Media3 ExoPlayer" />
-<img src="https://img.shields.io/badge/BEAT%20AI-ONNX%20RUNTIME-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime" />
-<img src="https://img.shields.io/badge/AUTH-FIREBASE-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-<img src="https://img.shields.io/badge/PARTY-WEBSOCKET-00C2A8?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSocket" />
-
-<img src="https://img.shields.io/badge/UI-LIQUID%20GLASS-111827?style=for-the-badge" alt="Liquid glass UI" />
-<img src="https://img.shields.io/badge/DYNAMIC%20ISLAND-FLOATING%20PLAYER-000000?style=for-the-badge" alt="Dynamic Island" />
-<img src="https://img.shields.io/badge/MADE%20BY-ARAF%20STUDIO-E11D48?style=for-the-badge" alt="Araf Studio" />
+</div>
 
 <br/>
+
+> [!IMPORTANT]
+> Lyrically is not affiliated with, endorsed by, or connected to YouTube, Google, Spotify, Apple or JioSaavn in any way. Use it at your own discretion.
+
 <br/>
 
-[**Website**](https://arafstudio.pages.dev) &nbsp;•&nbsp; [**Features**](#-features) &nbsp;•&nbsp; [**Screenshots**](#-screenshots) &nbsp;•&nbsp; [**Listen Together**](#-listen-together) &nbsp;•&nbsp; [**Collaborators**](#-collaborators)
-
+<div align="center">
+<img src="https://i.postimg.cc/GpTm4nMW/01-cover.jpg" alt="Lyrically" width="100%" />
 </div>
 
 <br/>
 
 ---
 
-## <img src="https://api.iconify.design/lucide:sparkles.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Why Lyrically
+## Why Lyrically
 
 Most players show lyrics as a static block of text. **Lyrically** treats them as part of the music: a beat-tracking model listens to the song and times every lyric transition to the rhythm, while a glass-smooth interface, a floating Dynamic Island and shared listening parties make the whole app feel alive.
 
+---
+
+## Features
+
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### <img src="https://api.iconify.design/lucide:mic.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Lyrics in rhythm
-Lyric lines move on the beat, driven by an on-device **Beat&nbsp;This!** model running on ONNX Runtime. No cloud round-trip for beat analysis.
+### Playback & Library
+
+- **Discover** your home feed with the **AR'AF'S PE'ACE** card, quick shelves from your library and fresh **YouTube Music** sections.
+- **Explore** by mood and genre with color-washed category tiles and playlist grids.
+- **Smart library**: Liked, playlists, device music, artists, albums, recently played, recently added and most played.
+- **Queue** you control: play next, play later, reorder.
+- **Downloads & offline cache** with a chunked audio cache for listening without a connection.
+- **Import** playlists, albums or songs from **Spotify, Apple Music, JioSaavn and YouTube Music** links.
+
+### Connectivity & Accounts
+
+- **Listen Together** parties for up to 10 listeners, with host and DJ roles, invite link and QR.
+- **Verified identity**: everyone joins with their own Firebase account.
+- **Community** posts from the admin with photos and videos, comments, replies and pinned comments.
+- **In-app updates**: download and install new versions from inside the app.
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### <img src="https://api.iconify.design/lucide:pill.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Dynamic Island
-A floating player that stays on top of other apps and shows the current lyric line right next to the artist.
+### Experience
 
-</td>
-<td width="33%" valign="top">
+- **Beat-synced lyrics**: the on-device **Beat This!** model on ONNX Runtime times lyric transitions to the music. No cloud round-trip.
+- **Dynamic Island**: a floating player above other apps that shows the current lyric line.
+- **Player styles**: record and tonearm, poster, full video and more, with a live-preview style editor and color picker.
+- **Liquid glass UI**: glass surfaces, mesh backgrounds, springy animations and haptics.
+- **Premium profile card** with listening time, days with the app and a listener grade, plus a scratch-off foil.
+- **Bangla-ready** typography bundled with Poppins and Inter.
 
-### <img src="https://api.iconify.design/lucide:headphones.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Listen Together
-Create a party, share a code, and everyone hears the same second of the same song, kept in sync in real time.
+### Controls & Tweaks
+
+- **Widgets**: Player, Controls, Compact and Mini for your home screen.
+- **Multiple app icons** to pick from.
+- **Host controls**: lock control to yourself, hand out DJ access, resize the party (2 to 10) or remove people.
+- **Lyrics sources**: word-synced lyrics from LRCLIB, KuGou and SimpMusic.
+- **Android TV app** with full-screen artwork, synced lyrics and your queue, driven from the remote.
 
 </td>
 </tr>
@@ -67,19 +95,25 @@ Create a party, share a code, and everyone hears the same second of the same son
 
 ---
 
-## <img src="https://api.iconify.design/lucide:camera.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Screenshots
-
-### Start here
+## Download
 
 <div align="center">
-<img src="https://i.postimg.cc/GpTm4nMW/01-cover.jpg" alt="Cover" width="100%" />
-</div>
 
-> **Cover.** The Lyrically brand at a glance: the logo and name on a dark, glassy canvas, the look that carries through the whole app.
+<a href="https://github.com/arafstudio/lyrically/releases/download/V1.0.2.Universal/Lyrically1.0.2-Release.apk"><img src="https://img.shields.io/badge/Download-Android%20v1.0.2-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=111827" alt="Download Android" /></a>
+<a href="https://github.com/arafstudio/lyrically/releases/download/V1.0.2.Universal/LyricallyTv1.0.0-Release.apk"><img src="https://img.shields.io/badge/Download-Android%20TV%20v1.0.0-0A84FF?style=for-the-badge&logo=androidtv&logoColor=white&labelColor=111827" alt="Download Android TV" /></a>
 
 <br/>
 
-### Discover &amp; Explore
+Grab the latest signed APK from the [Releases](https://github.com/arafstudio/lyrically/releases/tag/V1.0.2.Universal) page.
+Sideloading requires enabling "Install unknown apps" for whichever app you download it with.
+
+<sub>Requires Android 7.0 or newer (min SDK 24).</sub>
+
+</div>
+
+---
+
+## Screenshots
 
 <table>
 <tr>
@@ -88,150 +122,111 @@ Create a party, share a code, and everyone hears the same second of the same son
 <br/><br/>
 <b>Discover</b>
 <br/>
-<sub>Your home screen. The <b>AR'AF'S PE'ACE</b> card sits up top, followed by quick shelves built from your own library and fresh <b>YouTube&nbsp;Music</b> sections, so something good is always one tap away.</sub>
+<sub>Your home screen. The <b>AR'AF'S PE'ACE</b> card sits up top, followed by quick shelves from your own library and fresh <b>YouTube Music</b> sections.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/j2tx3wsq/03-explore.jpg" alt="Explore" />
 <br/><br/>
 <b>Explore</b>
 <br/>
-<sub>Browse by mood and genre. Categories appear as bold, color-washed tiles (covers rendered with a duotone treatment), and <i>See more</i> opens the full set of categories with a playlist grid for each.</sub>
+<sub>Browse by mood and genre. Categories appear as bold, color-washed tiles, and <i>See more</i> opens the full set with a playlist grid for each.</sub>
 </td>
 </tr>
-</table>
-
-<br/>
-
-### Now Playing &amp; Queue
-
-<table>
 <tr>
 <td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/brgz7yJ9/04-now-playing.jpg" alt="Now Playing" />
 <br/><br/>
 <b>Now Playing</b>
 <br/>
-<sub>The heart of the app: large artwork, playback controls and a curved seek bar, with lyrics that transition in time with the beat. Choose from many <b>player styles</b> (record and tonearm, poster, full-video and more) and tune them in the built-in style editor.</sub>
+<sub>Large artwork, playback controls and a curved seek bar, with lyrics that transition in time with the beat. Pick a <b>player style</b> and tune it in the style editor.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/vBRH92kn/05-queue.jpg" alt="Queue" />
 <br/><br/>
 <b>Queue</b>
 <br/>
-<sub>See what's playing and what comes next. Add songs to play next or later, and keep the whole listening session under control without leaving the player.</sub>
+<sub>See what is playing and what comes next. Add songs to play next or later without leaving the player.</sub>
 </td>
 </tr>
-</table>
-
-<br/>
-
-### Library, Playlists &amp; Import
-
-<table>
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/MKtT4DMN/06-library.jpg" alt="Library" />
 <br/><br/>
 <b>Library</b>
 <br/>
-<sub>Everything in one place: <b>Liked</b>, playlists, <b>AR'AF'S PE'ACE</b>, songs on your device, artists, albums, plus <i>recently played</i>, <i>recently added</i> and <i>most played</i>.</sub>
+<sub>Liked, playlists, <b>AR'AF'S PE'ACE</b>, songs on your device, artists, albums, plus recently played, recently added and most played.</sub>
 </td>
-<td width="33%" align="center" valign="top">
+<td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/WzvzRY7b/07-playlists.jpg" alt="Playlists" />
 <br/><br/>
 <b>Playlists</b>
 <br/>
-<sub>Your playlists as a clean cover grid. Create, open and play them, and add any song from anywhere in the app through the playlist menu.</sub>
+<sub>Your playlists as a clean cover grid. Create, open and play them, and add any song through the playlist menu.</sub>
 </td>
-<td width="33%" align="center" valign="top">
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/MZ7X0xWx/09-import.jpg" alt="Import" />
 <br/><br/>
 <b>Import</b>
 <br/>
-<sub>Moving over is easy: pick the app your songs come from (<b>Spotify, Apple Music, JioSaavn, YouTube Music</b>), paste a song, album or playlist link, and Lyrically matches each track and files them in a folder named after the source.</sub>
+<sub>Pick the app your songs come from, paste a link, and Lyrically matches each track and files it in a folder named after the source.</sub>
 </td>
-</tr>
-</table>
-
-<br/>
-
-### Listen Together &amp; Profile
-
-<table>
-<tr>
 <td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/W4xt81Fb/08-listen-together.jpg" alt="Listen Together" />
 <br/><br/>
 <b>Listen Together</b>
 <br/>
-<sub>Start a party in seconds. You get a <b>6-character party code</b> (and an invite link) to share, a live member list, the song everyone is hearing right now, host and <b>DJ</b> controls, and a live connection indicator in milliseconds.</sub>
+<sub>A <b>6-character party code</b> and invite link, a live member list, host and <b>DJ</b> controls and a live connection indicator.</sub>
 </td>
+</tr>
+<tr>
 <td width="50%" align="center" valign="top">
 <img src="https://i.postimg.cc/SxsspMcr/10-profile.jpg" alt="Profile" />
 <br/><br/>
 <b>Profile</b>
 <br/>
-<sub>A premium ID card with your name and avatar, total listening time, days with the app and a <b>listener grade</b> badge. There's even a silver foil you can scratch off to reveal it.</sub>
+<sub>A premium ID card with your name, total listening time, days with the app and a <b>listener grade</b> badge.</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<img src="https://i.postimg.cc/J0r8cfq7/island-1600.webp" alt="Dynamic Island" />
+<br/><br/>
+<b>Dynamic Island</b>
+<br/>
+<sub>A floating pill that stays above your other apps and shows the song, the artist and the <b>current lyric line</b>.</sub>
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-### Dynamic Island
+## Listen Together
+
+There is **no polling**: a play, pause, seek or song change is a single small message pushed to everyone the instant it happens.
+
+- **Late messages still land correctly.** Every message carries its own timing, so even a delayed one puts the phone in the right place.
+- **Self-healing.** The room state is restated every few seconds, so drift and lost messages are corrected automatically.
+- **Verified identity.** Everyone joins with their own account, so nobody can join as someone else.
+- **Reconnects on its own.** Drop into a tunnel and you keep your seat for 45 seconds.
+- **Host and DJ control.** The host can restrict control to themselves, hand out DJ access, resize the party (2 to 10) or remove people.
+
+---
+
+## Built with
 
 <div align="center">
-<img src="https://i.postimg.cc/J0r8cfq7/island-1600.webp" alt="Dynamic Island" width="100%" />
+
+<img src="https://img.shields.io/badge/KOTLIN-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=111827" alt="Kotlin" />
+<img src="https://img.shields.io/badge/MEDIA3%20EXOPLAYER-FF6D00?style=for-the-badge&logo=google&logoColor=white&labelColor=111827" alt="Media3 ExoPlayer" />
+<img src="https://img.shields.io/badge/ONNX%20RUNTIME-005CED?style=for-the-badge&logo=onnx&logoColor=white&labelColor=111827" alt="ONNX Runtime" />
+<img src="https://img.shields.io/badge/FIREBASE-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=111827" alt="Firebase" />
+<img src="https://img.shields.io/badge/WEBSOCKET-00C2A8?style=for-the-badge&logo=socketdotio&logoColor=white&labelColor=111827" alt="WebSocket" />
+
 </div>
 
-> **Dynamic Island.** A floating, pill-shaped player that stays above your other apps. Collapsed it is a small capsule; expanded it shows the song, the artist and the **current lyric line**, with playback controls under your thumb.
-
-<br/>
-
-### Closing
-
-<div align="center">
-<img src="https://i.postimg.cc/Ss8RvbCv/11-closing.jpg" alt="Closing" width="100%" />
-</div>
-
-> **Lyrically** by **Araf Studio**: music, lyrics and people, together.
-
 ---
 
-## <img src="https://api.iconify.design/lucide:rocket.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Features
-
-| | Feature | What it does |
-|---|---|---|
-| <img src="https://api.iconify.design/lucide:mic.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Beat-synced lyrics** | On-device beat tracking (Beat&nbsp;This! model on ONNX Runtime) times lyric transitions to the music. |
-| <img src="https://api.iconify.design/lucide:pill.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Dynamic Island** | Floating player over other apps, with the current lyric line. |
-| <img src="https://api.iconify.design/lucide:headphones.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Listen Together** | Real-time parties, up to 10 listeners, host and DJ roles, invite link and QR. |
-| <img src="https://api.iconify.design/lucide:megaphone.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Community** | Posts from the admin with photos and videos, comments, replies and pinned comments. A red dot tells you when something new is posted. |
-| <img src="https://api.iconify.design/lucide:sliders-horizontal.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Player styles** | Built-in styles (record + tonearm, poster, full video and more) with a live-preview style editor and color picker. |
-| <img src="https://api.iconify.design/lucide:library.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Smart library** | Liked, playlists, device music, artists, albums, recently played / added, most played. |
-| <img src="https://api.iconify.design/lucide:refresh-cw.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Import** | Bring playlists from Spotify, Apple Music, JioSaavn and YouTube Music links. |
-| <img src="https://api.iconify.design/lucide:search.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Explore** | Mood and genre categories with playlist grids. |
-| <img src="https://api.iconify.design/lucide:download.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Downloads &amp; offline cache** | Chunked audio cache and a downloader for listening without a connection. |
-| <img src="https://api.iconify.design/lucide:layout-grid.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Widgets** | Player, controls, compact and mini widgets for your home screen. |
-| <img src="https://api.iconify.design/lucide:id-card.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Premium profile card** | ID card with listening time, days with the app and a listener grade. |
-| <img src="https://api.iconify.design/lucide:palette.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Liquid glass UI** | Glass surfaces, mesh backgrounds, springy animations, haptics, multiple app icons. |
-| <img src="https://api.iconify.design/lucide:languages.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **Bangla-ready** | Bundled Bengali typography alongside Poppins and Inter. |
-| <img src="https://api.iconify.design/lucide:bell.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> | **In-app updates** | Download and install new versions from inside the app. |
-
----
-
-## <img src="https://api.iconify.design/lucide:headphones.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Listen Together
-
-Lyrically's party system is built for speed. There is **no polling**: a play, pause, seek or song change is a single small message pushed to everyone the instant it happens.
-
-- <img src="https://api.iconify.design/lucide:radio.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Late messages still land correctly.** Every message carries its own timing, so even a delayed one puts the phone in the right place.
-- <img src="https://api.iconify.design/lucide:heart-pulse.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Self-healing.** The room state is restated every few seconds, so drift and lost messages are corrected automatically.
-- <img src="https://api.iconify.design/lucide:shield-check.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Verified identity.** Everyone joins with their own account, so nobody can join as someone else.
-- <img src="https://api.iconify.design/lucide:repeat.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Reconnects on its own.** Drop into a tunnel and you keep your seat for 45 seconds.
-- <img src="https://api.iconify.design/lucide:crown.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> **Host &amp; DJ control.** The host can restrict control to themselves, hand out DJ access, resize the party (2–10) or remove people.
-
----
-
-## <img src="https://api.iconify.design/lucide:users.svg?color=%238E5CF7" width="20" height="20" align="top" alt="" /> Collaborators
+## Collaborators
 
 <div align="center">
 
@@ -246,20 +241,37 @@ Lyrically's party system is built for speed. There is **no polling**: a play, pa
 <br/>
 <sub>Music Backend Partner</sub>
 </td>
-<!-- Add more collaborators by copying a <td>...</td> block above and pasting it here -->
 </tr>
 </table>
 
 </div>
 
+### Thanks to all contributors ❤
+
+<div align="center">
+<a href="https://github.com/arafstudio/lyrically/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=arafstudio/lyrically" alt="Contributors" />
+</a>
+</div>
+
+---
+
+## Disclaimer & Legal Notice
+
+Lyrically is an independent music player made by Araf Studio. It is **not** associated with Google LLC, YouTube, YouTube Music, Spotify, Apple or JioSaavn, or any of their parent companies.
+
+- **No media hosting:** Lyrically does not host or upload copyrighted music files. It plays music already on your device and streams songs from their original online sources.
+- **Your responsibility:** you are responsible for the files you play and for making sure your use follows your local laws and the terms of the services involved.
+- **Personal use only:** downloads are for your own listening. Do not copy, resell or share them.
+- **Trademarks:** Spotify, Apple Music, YouTube Music and JioSaavn are trademarks of their owners. Album art and song names shown here are for illustration only.
+
 ---
 
 <div align="center">
 
-### Made with <img src="https://api.iconify.design/lucide:heart.svg?color=%238E5CF7" width="18" height="18" align="top" alt="" /> by **Araf Studio**
+### Made with ❤ by **Araf Studio**
 
-[![Website](https://img.shields.io/badge/WEBSITE-arafstudio.pages.dev-0A84FF?style=for-the-badge&logo=cloudflare&logoColor=white)](https://arafstudio.pages.dev)
-[![Studio](https://img.shields.io/badge/ARAF%20STUDIO-INDIE%20APPS%20%26%20GAMES-E11D48?style=for-the-badge)](https://arafstudio.pages.dev)
+[![Website](https://img.shields.io/badge/WEBSITE-arafstudio.pages.dev-0A84FF?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=111827)](https://arafstudio.pages.dev)
 
 <sub>© Araf Studio. All rights reserved.</sub>
 
